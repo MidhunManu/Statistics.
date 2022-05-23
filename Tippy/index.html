@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tippy</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="app.js"></script>
+    <h1>TIPPY</h1>
+    <label for="pay">Amount</label>
+    <br>
+    <input type="text" name="pay" id="pay">
+    <br>
+    <br>
+    <label for="tip">Tip percent</label>
+    <br>
+    <input type="text" name="tip" id="tip">
+
+    <button onclick="result()"  value = "p" id="btn">pay</button>
+    <p id="satn"></p>
+    <p id="total"></p>
+    <p id="res"></p>
+
+<!-- 
+    <script>
+        function result(){
+            let =payment = document.getElementById("pay").value;
+            let tipAmount = document.getElementById("tip").value 
+            let result = ((Number(tipAmount) /  Number(payment)) * 100).toFixed(1);
+            
+            document.getElementById("satn").innerHTML = result;
+        }
+    </script> -->
+
+    <!-- <input type="text" id="box1" /><br />
+    <input type="text" id="box2" /><br />
+    <input type="text" id="+" /><br />
+    <input type="button" value="+" onclick="calcSum()" /><br />
+
+    <script>
+      function calcSum() {
+        let box1 = document.getElementById("box1").value;
+        let box2 = document.getElementById("box2").value;
+        let sum = Number(box1) + Number(box2);
+        document.getElementById("+").value = sum;
+      }
+    </script> -->
+  </body>
+</html>

@@ -1,0 +1,12 @@
+body
+{
+    background-color: skyblue;
+    position: relative;
+    top: -20px; /* This will move it 20px up */
+    left: 20px; /* This will move it 20px to the right */
+}
+
+#res
+{
+    font-size:x-large;
+}
